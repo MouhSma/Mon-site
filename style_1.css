@@ -1,0 +1,754 @@
+body{
+    font-family: "Roboto", serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #E8E4DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-right: 50px;
+    padding-left: 20px; 
+    position:sticky;
+    top:0;
+    z-index: 1000;      
+}
+.link a {
+    background-color: #E8E4DC;
+    color:black;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.link a:nth-of-type(-n+3):hover{
+    background-color: rgb(215, 215, 215);
+}
+.link button{
+    padding: 7px 23px 7px 23px; 
+    margin: 0px;
+    border-radius: 25px;
+}
+
+/*#########################################################*/
+
+
+.landingpage{
+    background-color: #E8E4DC;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.description{
+    width: 500px;
+}
+
+.search input{
+    border-radius: 50px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 130px;
+}
+.search button{
+    position :absolute;
+    left: 290px;
+    height: 36px;
+}
+.landingpageimg img{
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+}
+
+
+
+/*#########################################################*/
+
+
+
+.tendance{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.tendance span{
+    color: red;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 50px;
+}
+.Tendance {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+}
+.Tendance h1 {
+    margin-left: 0px;
+}
+.Tendance button{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 11px 25px 11px 25px; 
+}
+
+/*#########################################################*/
+
+
+.vehicules{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.marques-info{
+    background-color: #E8E4DC;
+    border-radius: 0px 0px 15px 15px;
+    
+}
+.marques-nom{
+    color: black;
+    padding-left:20px;
+}
+.marques-nom h3{
+    margin-bottom: 0px;
+}
+.marques{
+    width: 150px;
+    margin-left: 0px;
+    margin-right: 10px;
+    border: 2px solid black ;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.marques a{
+    text-decoration: none;
+}
+
+/*###############################################*/
+.pied{
+    background-color:black;
+    display: flex;
+    border-width: 70px;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 5px 5px 25px 25px; 
+    margin: 90px 0px 0px 0px; 
+}
+
+.pied p{
+    color: white;
+}
+.pied h4,
+.pied h3{
+    background-color: black;
+    color:white;
+}
+.pied a{
+    color:white;
+    text-decoration: none;
+}
+
+.stylepied a{
+    background-color: black;
+    color:white;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+/*#############indeceponsable#############*/
+
+button{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    padding: 5px 15px; 
+    margin: 0px;
+}
+.marques{
+    margin-top:20px;
+}
+img{
+    border-radius: 15px;
+}
+
+/*############################  connexione    ###############################################*/
+
+
+
+.login-bloc{
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 100px 50px;
+    text-align: center;
+}
+
+
+.connexion input{
+    border: 2px solid grey;
+    border-radius: 35px;
+    height: 30px;
+    padding:10px 295px 10px 15px;
+    margin-bottom: 20px;
+}
+.connexion button{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 15px 200px 15px 200px; 
+    margin: 0px;
+}
+
+.connexion a{
+    color:black;
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-bottom: 20px;
+    text-decoration: none;
+    
+}
+
+
+
+.singup{
+    background-color: black;
+    padding-right:0px ;
+    text-align: center;
+}
+
+.singup-bloc{
+    color: white;
+    padding: 250px 60px 250px 60px;
+}
+
+.singup-bloc button{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px 50px 15px 50px; 
+    margin: 0px;
+    
+}
+
+
+
+
+
+/*###################################"######################### */
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+
+
+
+/* /*################################################################### */
+
+
+
+
+/*########################## remplace par login ######################################*/
+
+.inscription{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+/*########################## remplace par singup ######################################*/
+
+.connexion_1{
+    background-color: black;
+    padding-right:0px ;
+    text-align: center;
+}
+
+/*########################## remplace par singup-bloc ######################################*/
+
+.connexion-bloc{
+    color: white;
+    padding: 250px 60px 250px 60px;
+}
+
+.connexion-bloc button{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px 50px 15px 50px; 
+    margin: 0px;
+    
+}
+
+/*#################### remplace par login-block ##############################*/
+
+.inscription_1{
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 300px 100px 5px;
+    margin-right: auto;
+    margin-left: 60px;
+    margin-top: auto;
+    /*text-align: center;*/
+}
+
+.inscription-block div:first-of-type input{
+    border: 2px solid grey;
+    border-radius: 35px;
+    height: 30px;
+    margin-left: 1px;
+    margin-right: 10px;
+    padding:10px 50px 5px 5px;
+    margin-bottom: 20px;
+}
+
+.inscription-block input{
+    margin-right: auto;
+}
+
+.inscription-block input:nth-of-type(n-2){
+    border: 2px solid grey;
+    border-radius: 35px;
+    height: 30px;
+    padding:10px 295px 5px 5px;
+    margin-bottom: 20px;
+}
+
+/*.inscription-block div:nth-of-type(6){
+    margin-left: 100px;
+    margin-right: 150px;
+}*/
+
+.relation button{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 15px 180px 15px 180px; 
+    margin: 0px;
+}
+
+
+
+/*#####################################  inscription  #########################*/
+.bloc{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.voiture-info{
+    background-color: #E8E4DC;
+    border-radius: 0px 15px 15px 0px;
+    padding-right:auto ;
+    flex: 1;
+
+}
+.voiture-nom{
+    color: black;
+    padding-left:20px;
+}
+.voiture-nom h3{
+    margin-bottom: 0px;
+}
+.voitures{
+    width: 800px;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 10px;
+    border: 2px solid black ;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.voitures a{
+    text-decoration: none;
+}
+.bloc img {
+    border-radius:15px 0px 0px 15px;
+    flex: 1;
+}
+
+.voiture-nom table {
+    border-collapse: separate;
+    border-spacing: 20px;
+
+}
+
+
+ /*########################################################################### */
+
+
+.annonce-container {
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 980px;
+    margin-left: 70px;
+    margin-top:70px;
+    margin-bottom:30px;
+}
+
+.annonce-listing {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #e0deda;
+}
+
+/* Grille photos */
+.annonce-photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 185px 185px;
+    gap: 3px;
+    background-color: #111;
+}
+
+.annonce-photo-main {
+    grid-row: span 2;
+    position: relative;
+    overflow: hidden;
+    background: #2a2a2a;
+}
+
+.annonce-photo-thumb {
+    position: relative;
+    overflow: hidden;
+    background: #222;
+}
+
+.annonce-photo-main img ,
+.annonce-photo-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.annonce-badge-photos {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    background: #ffffff;
+    color: #111;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Infos */
+.annonce-info-block {
+    padding: 22px 26px 28px;
+}
+
+.annonce-car-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.annonce-car-meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.annonce-car-meta span::after { content: ' · '; color: #aaa; }
+.annonce-car-meta span:last-child::after { content: ''; }
+
+.annonce-car-price {
+    font-size: 30px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.annonce-car-date {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 18px;
+}
+
+.annonce-tag {
+    background: #f0eeea;
+    border: 1px solid #dddbd6;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 13px;
+    color: #555;
+}
+
+/* Panneau vendeur */
+.annonce-seller-panel {
+    width: 280px;
+    flex-shrink: 0;
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e0deda;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.annonce-seller-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #f0eeea;
+}
+.annonce-seller-panel button:first-of-type{
+    padding-top:15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+}
+.annonce-seller-panel button:nth-of-type(2){
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px; 
+}
+.annonce-seller-panel a:first-of-type{
+    text-decoration: none;
+    color:white;
+}
+
+.information{
+    margin-left: 70px;
+}
+.information td{
+    padding-top: 0px;
+    padding-right: 70px;
+}
+.information th{
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* ── Navbar ── */
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 14px 16px;
+        gap: 10px;
+    }
+    .link {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    .link a {
+        padding: 5px 12px;
+        font-size: 13px;
+    }
+
+
+    .landingpage {
+        flex-direction: column;
+        padding: 24px 16px;
+        border-radius: 0 0 30px 30px;
+        text-align: center;
+        gap: 20px;
+    }
+    .description {
+        width: 100%;
+    }
+    .landingpageimg img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .search {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .search input {
+        width: 100%;
+        padding-right: 90px;
+    }
+    .search button {
+        left: auto;
+        right: 0;
+        position: absolute;
+    }
+
+
+    .tendance span {
+        padding-left: 16px;
+    }
+    .Tendance {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin: 10px 16px;
+    }
+
+
+    .vehicules {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 10px;
+        gap: 10px;
+    }
+    .marques {
+        width: calc(50% - 20px);
+    }
+
+
+    .pied {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 16px;
+        gap: 10px;
+        margin-top: 40px;
+    }
+
+
+    .login {
+        flex-direction: column;
+        padding: 0;
+    }
+    .login-bloc {
+        padding: 40px 20px;
+        width: 100%;
+    }
+    .connexion input {
+        padding: 10px 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .connexion button {
+        padding: 15px 40px;
+        width: 100%;
+    }
+    .singup {
+        width: 100%;
+    }
+    .singup-bloc {
+        padding: 50px 20px;
+    }
+    .singup-bloc button {
+        padding: 15px 40px;
+        width: 80%;
+    }
+
+
+    .inscription {
+        flex-direction: column;
+        padding: 0;
+    }
+    .connexion_1 {
+        width: 100%;
+    }
+    .connexion-bloc {
+        padding: 50px 20px;
+    }
+    .connexion-bloc button {
+        padding: 15px 40px;
+        width: 80%;
+    }
+    .inscription_1 {
+        padding: 30px 20px 40px 20px;
+        margin: 0;
+        width: 100%;
+    }
+    .inscription-block div:first-of-type {
+        display: flex;
+        flex-direction: column;
+    }
+    .inscription-block div:first-of-type input {
+        width: 100%;
+        padding: 10px 15px;
+        margin-right: 0;
+    }
+    .inscription-block input:nth-of-type(n-2) {
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .relation button {
+        padding: 15px 40px;
+        width: 100%;
+    }
+
+
+    .bloc {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .voitures {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .bloc img {
+        border-radius: 15px 15px 0px 0px;
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        flex: none;
+    }
+    .voiture-info {
+        border-radius: 0px 0px 15px 15px;
+        width: 100%;
+    }
+    .voiture-nom table {
+        border-spacing: 10px;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+
+    .link a {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+    .marques {
+        width: 100%;
+    }
+    .connexion button,
+    .relation button {
+        padding: 12px 20px;
+    }
+    .landingpage h1 {
+        font-size: 22px;
+    }
+}
